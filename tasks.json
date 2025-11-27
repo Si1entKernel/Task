@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "description": "Print greeting",
+      "done": false,
+      "tags": ["demo"],
+      "priority": 1,
+      "command": ["cmd", "/c", "echo", "Hello"]
+    },
+    {
+      "id": 2,
+      "title": "Show Python version",
+      "description": "Run python --version",
+      "done": false,
+      "tags": ["demo"],
+      "priority": 2,
+      "command": ["python", "--version"]
+    }
+  ]
+}
